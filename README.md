@@ -40,16 +40,16 @@ Aplicación web desarrollada con Laravel + Vue para gestionar proyectos, asignar
 
 ## Estructura funcional
 
-- Tablero principal: [`resources/js/Pages/Dashboard.vue`](/c:/Users/jmorales/laravel-prueba/resources/js/Pages/Dashboard.vue)
-- Calendario y formularios de tarea: [`resources/js/Components/TaskCalendarBoard.vue`](/c:/Users/jmorales/laravel-prueba/resources/js/Components/TaskCalendarBoard.vue)
-- Layout global (cabecera, menú lateral, contenido, footer): [`resources/js/Layouts/AdminLTELayout.vue`](/c:/Users/jmorales/laravel-prueba/resources/js/Layouts/AdminLTELayout.vue)
-- Controlador de tareas: [`app/Http/Controllers/TaskController.php`](/c:/Users/jmorales/laravel-prueba/app/Http/Controllers/TaskController.php)
-- Controlador de proyectos: [`app/Http/Controllers/ProjectController.php`](/c:/Users/jmorales/laravel-prueba/app/Http/Controllers/ProjectController.php)
-- Reportes PDF: [`app/Http/Controllers/ReportController.php`](/c:/Users/jmorales/laravel-prueba/app/Http/Controllers/ReportController.php)
-- Vista PDF: [`resources/views/reports/tasks-pdf.blade.php`](/c:/Users/jmorales/laravel-prueba/resources/views/reports/tasks-pdf.blade.php)
+- Tablero principal: [`resources/js/Pages/Dashboard.vue`](resources/js/Pages/Dashboard.vue)
+- Calendario y formularios de tarea: [`resources/js/Components/TaskCalendarBoard.vue`](resources/js/Components/TaskCalendarBoard.vue)
+- Layout global (cabecera, menú lateral, contenido, footer): [`resources/js/Layouts/AdminLTELayout.vue`](resources/js/Layouts/AdminLTELayout.vue)
+- Controlador de tareas: [`app/Http/Controllers/TaskController.php`](app/Http/Controllers/TaskController.php)
+- Controlador de proyectos: [`app/Http/Controllers/ProjectController.php`](app/Http/Controllers/ProjectController.php)
+- Reportes PDF: [`app/Http/Controllers/ReportController.php`](app/Http/Controllers/ReportController.php)
+- Vista PDF: [`resources/views/reports/tasks-pdf.blade.php`](resources/views/reports/tasks-pdf.blade.php)
 
 ## Documentación de entrega
 
-- Memoria del proyecto: [`docs/MEMORIA_PROYECTO.md`](/c:/Users/jmorales/laravel-prueba/docs/MEMORIA_PROYECTO.md)
-- Manual breve de uso: [`docs/MANUAL_USO.md`](/c:/Users/jmorales/laravel-prueba/docs/MANUAL_USO.md)
-- Arquitectura y relaciones ORM: [`docs/ARQUITECTURA_Y_RELACIONES.md`](/c:/Users/jmorales/laravel-prueba/docs/ARQUITECTURA_Y_RELACIONES.md)
+- Memoria del proyecto: [`docs/MEMORIA_PROYECTO.md`](docs/MEMORIA_PROYECTO.md)
+- Manual breve de uso: [`docs/MANUAL_USO.md`](docs/MANUAL_USO.md)
+- Arquitectura y relaciones ORM: [`docs/ARQUITECTURA_Y_RELACIONES.md`](docs/ARQUITECTURA_Y_RELACIONES.md)

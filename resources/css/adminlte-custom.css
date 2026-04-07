@@ -1,0 +1,252 @@
+/* AdminLTE 3 Customizations */
+
+:root {
+    --primary-color: #007bff;
+    --dark-color: #343a40;
+    --sidebar-bg: #222d32;
+}
+
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ecf0f5;
+}
+
+/* Sidebar Styles */
+.sidebar-dark-primary {
+    background-color: var(--sidebar-bg);
+}
+
+.main-sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 250px;
+    background-color: var(--sidebar-bg);
+    overflow-y: auto;
+    transition: margin-left 0.3s ease;
+}
+
+.content-wrapper {
+    margin-left: 250px;
+    margin-top: 60px;
+    background-color: #ecf0f5;
+    min-height: calc(100vh - 60px);
+}
+
+.main-header {
+    background-color: #fff;
+    border-bottom: 1px solid #dee2e6;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    z-index: 1000;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-nav .nav-link {
+    color: #333 !important;
+    padding: 0.5rem 1rem !important;
+}
+
+.navbar-nav .nav-link i {
+    margin-right: 5px;
+}
+
+/* Sidebar Navigation */
+.nav-sidebar .nav-link {
+    color: #8aa4af;
+    padding: 0.75rem 1.5rem;
+    border-left: 3px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.nav-sidebar .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+    color: #fff;
+}
+
+.nav-sidebar .nav-link.active {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    border-left-color: var(--primary-color);
+}
+
+.nav-sidebar .nav-icon {
+    width: 20px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+/* Content Header */
+.content-header {
+    background-color: #fff;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.content-header h1 {
+    font-size: 1.5rem;
+    color: #333;
+    font-weight: 600;
+}
+
+/* Cards */
+.card {
+    border: none;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+.card-header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #dee2e6;
+    font-weight: 600;
+}
+
+/* Tables in AdminLTE */
+.table-responsive {
+    border-radius: 4px;
+}
+
+.table thead th {
+    background-color: #f8f9fa;
+    border-bottom: 2px solid #dee2e6;
+    font-weight: 600;
+    color: #333;
+}
+
+.table tbody tr:hover {
+    background-color: #f8f9fa;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+/* Footer */
+.main-footer {
+    background-color: #fff;
+    padding: 1rem;
+    border-top: 1px solid #dee2e6;
+    font-size: 0.875rem;
+    color: #666;
+    margin-left: 250px;
+}
+
+/* Modals */
+.modal-header {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.modal-header .btn-close {
+    filter: brightness(0) invert(1);
+}
+
+/* Forms */
+.form-control:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .main-sidebar {
+        margin-left: -250px;
+    }
+
+    .sidebar-collapse .main-sidebar {
+        margin-left: 0;
+    }
+
+    .sidebar-collapse .content-wrapper,
+    .sidebar-collapse .main-footer {
+        margin-left: 0;
+    }
+
+    .content-wrapper,
+    .main-footer {
+        margin-left: 0;
+    }
+}
+
+/* Breadcrumb */
+.breadcrumb {
+    background-color: transparent;
+    padding: 0;
+}
+
+.breadcrumb-item {
+    font-size: 0.875rem;
+}
+
+.breadcrumb-item.active {
+    color: #666;
+}
+
+/* Alerts */
+.alert {
+    border-radius: 4px;
+    border: none;
+}
+
+.alert-success {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.alert-danger {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+.alert-warning {
+    background-color: #fff3cd;
+    color: #856404;
+}
+
+.alert-info {
+    background-color: #d1ecf1;
+    color: #0c5460;
+}
+
+/* Badges */
+.badge {
+    padding: 0.35rem 0.65rem;
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+
+/* Loading Spinner */
+.spinner-border {
+    color: var(--primary-color);
+}
+
+/* Pagination */
+.pagination {
+    margin-top: 1rem;
+}
+
+.page-link {
+    color: var(--primary-color);
+}
+
+.page-link:hover {
+    background-color: #e9ecef;
+}
+
+.page-item.active .page-link {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}

@@ -1,0 +1,31 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+@import "@fortawesome/fontawesome-free/css/all.min.css";
+
+body {
+    font-family: "Inter", sans-serif;
+    background: #f4f6f9;
+}
+
+.content-wrapper {
+    min-height: calc(100vh - 56px);
+}
+/* FullCalendar fallback styles */
+.fc {
+    font-family: inherit;
+}
+
+.fc-toolbar-chunk button {
+    background: #fff;
+    border: 1px solid #dee2e6;
+    color: #212529;
+    border-radius: 0.25rem;
+}
+
+.fc .fc-toolbar-title {
+    font-weight: 600;
+}
+
+.fc-daygrid-day-top,
+.fc-col-header-cell-cushion {
+    font-weight: 600;
+}
